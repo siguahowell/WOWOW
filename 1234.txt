@@ -55,3 +55,29 @@ int main ()
 	return 0;
 }
 
+#include <iostream>
+#include <conio.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <Windows.h>
+using namespace std;
+
+int main () {
+int n;
+cout << "enter the starting number:";
+cin >> n;
+
+while (n>0)
+{
+	cout << n << ",";
+	n--;
+	Sleep (600);
+}
+cout << "FIRE! \n";
+
+
+
+	
+	getch();
+	return 0;
+}
