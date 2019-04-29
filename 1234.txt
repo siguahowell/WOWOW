@@ -1,0 +1,27 @@
+#include <iostream>
+#include <conio.h>
+using namespace std;
+
+int main () 
+{
+	int a,c,d ; 
+	int b;
+	cout<<"Enter the number of units:";
+	cin >>a;
+		if (a<=32)
+		cout<< "you are a freshman ";
+		else if (a>=32&&a<64)
+
+		cout << "your are a sophomore ";
+		else if (a>=64&&a<95)
+		cout << "you are a junior ";
+		else if (a>=96&&a<=120)
+		cout << "your are a senior ";
+		else 
+		cout << "invalid ";
+
+
+	
+	getch();
+	return 0;
+}
