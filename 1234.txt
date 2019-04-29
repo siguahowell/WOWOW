@@ -25,3 +25,33 @@ int main ()
 	getch();
 	return 0;
 }
+{
+	char a ; 
+	
+	cout << "enter a letter"; 
+	cin >> a;
+	switch (a)
+	{
+	case 'A':
+	case 'a':
+		cout << "You're adorable";
+		break;
+	case 'b':
+	case 'B':
+		cout << "You're beautiful";
+		break;
+	case 'c':
+	case 'C':
+		cout << "You're so cute and full of charm!";
+		break;
+	default:
+		cout<< "invalid";
+	}
+		
+
+
+	
+	getch();
+	return 0;
+}
+
